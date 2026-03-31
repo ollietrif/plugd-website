@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-navy border-t border-border pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
           {/* Brand */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center">
@@ -45,7 +45,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-slate-400">
               <li><Link to="/#how-it-works" className="hover:text-electric transition-colors">How it Works</Link></li>
               <li><Link to="/#venues" className="hover:text-electric transition-colors">For Venues</Link></li>
-              <li><Link to="/#partners" className="hover:text-electric transition-colors">Partner Program</Link></li>
+              <li><Link to="/#host" className="hover:text-electric transition-colors">Partner Program</Link></li>
             </ul>
           </div>
 
@@ -56,16 +56,6 @@ export function Footer() {
               <li><Link to="/support" className="hover:text-electric transition-colors">Help Center</Link></li>
               <li><Link to="/support" className="hover:text-electric transition-colors">FAQs</Link></li>
               <li><a href="mailto:support@plugd.co.uk" className="hover:text-electric transition-colors flex items-center gap-2"><Mail className="w-4 h-4" /> Contact Us</a></li>
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div>
-            <h3 className="text-white font-semibold mb-6">Legal</h3>
-            <ul className="space-y-4 text-sm text-slate-400">
-              <li><a href="#" className="hover:text-electric transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-electric transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-electric transition-colors">Cookie Policy</a></li>
             </ul>
           </div>
         </div>

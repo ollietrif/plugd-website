@@ -21,7 +21,7 @@ export function HowItWorks() {
   ];
 
   return (
-    <section className="py-24 bg-card border-t border-border relative overflow-hidden">
+    <section id="how-it-works" className="py-24 bg-card border-t border-border relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-electric/5 rounded-full blur-[100px] pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
